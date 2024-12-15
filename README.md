@@ -1,39 +1,27 @@
-# SCT_ML_1
+SCT_ML_1
 
-# House Price Prediction with Linear Regression
+House Price Prediction with Linear Regression
+In this project, we implement a linear regression model to forecast house prices based on square footage, number of bedrooms, and number of bathrooms.
 
-This project implements a linear regression model to predict house prices based on square footage, number of bedrooms, and number of bathrooms.
+Dataset
+The dataset utilized in this project comprises details about various house features and their corresponding sale prices. Key features include:
 
-## Dataset
+GrLivArea: Above grade (ground) living area square footage
 
-The dataset used for this project contains information about various features of houses and their corresponding sale prices. It includes features like:
-- GrLivArea: Above grade (ground) living area square feet
-- BedroomAbvGr: Number of bedrooms above grade (does NOT include basement bedrooms)
-- FullBath: Number of full bathrooms above grade
-- SalePrice: Sale price of the house in dollars
+BedroomAbvGr: Number of bedrooms above grade (excluding basement bedrooms)
 
-## Files
+FullBath: Number of full bathrooms above grade
 
-- `train.csv`: Training dataset containing features and target variables.
-- `test.csv`: Testing dataset used for making predictions.
-- `sample_submission.csv`: Sample submission file with the format required for submission.
+SalePrice: Sale price of the house in dollars
 
-## Dependencies
+Files
+train.csv: Training dataset with features and target variables.
 
-- Python 3.x
-- Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
+test.csv: Testing dataset for making predictions.
 
-## Usage
+sample_submission.csv: Sample submission file illustrating the required submission format.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your/repository.git
-   cd repository
-   
-2. Install dependencies:
-   pip install -r requirements.txt
+Dependencies
+Python 3.x
 
-3. Run the script:
-   python house_price_prediction.py
-
-4. The script will train the linear regression model, make predictions on the test set, and display various visualizations to evaluate the model's performance.
+Required libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
